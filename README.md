@@ -1,65 +1,63 @@
-# AI-Augmented Infrastructure Portfolio – Kevin Schafer
+<!-- Top Banner -->
+![AI-Augmented Infrastructure Portfolio Banner](./assets/banner.png)
 
-Welcome! I'm Kevin Schafer, an infrastructure leader and AI-aware strategist with 30+ years in IT and cloud transformation. This portfolio showcases real-world micro-projects, architecture diagrams, and automation scripts I've developed to demonstrate modern infrastructure capabilities—from FinOps and DevSecOps to ML workload readiness. These projects reflect the skills, outcomes, and thought leadership I've applied to lead cloud modernization and AI-aligned infrastructure strategy at scale.
+# 🚀 AI-Augmented Infrastructure Portfolio – Kevin Schafer
+
+**Director** • Cloud Infrastructure • Database Modernization • AI-Augmented Operations  
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-336791?logo=postgresql&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Observability-F46800?logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Language-3776AB?logo=python&logoColor=white)
+
+---
+
+Welcome! I’m **Kevin Schafer**, an infrastructure leader and AI-aware strategist with **30+ years in IT and cloud transformation**.
+
+This portfolio showcases **real-world micro-projects**, **architecture diagrams**, and **automation scripts** I’ve developed to demonstrate modern infrastructure capabilities — from **FinOps** and **DevSecOps** to **ML workload readiness**.
+
+---
 
 ## 🗂 Project Index
 
-| Project | Description |
-|--------|-------------|
-| 🔍 AI-Powered Observability | CloudWatch + ChatGPT incident triage simulation with flowcharts |
-| 💸 FinOps Automation | Python + GPT-4 to identify and summarize cost-saving actions |
-| 🔐 Compliance-as-Code | Terraform + GPT drift detection and policy enforcement |
-| 🧠 ML Infra Simulation | AI-ready SageMaker pipeline with tagging and encryption |
-| 📊 Kubernetes Observability Stack | EKS + Prometheus + Grafana dashboards for DB latency and alerts |
-| 🏗 Platform Maturity Model | Golden paths, OKRs, and developer velocity strategy deck |
+| Icon | Project | Description |
+| --- | --- | --- |
+| 🔍 | [AI-Powered Observability](./ai-observability) | CloudWatch + ChatGPT incident triage simulation with flowcharts |
+| 💸 | [FinOps Automation](./finops-automation) | Python + GPT-4 to identify and summarize cost-saving actions |
+| 🔐 | [Compliance-as-Code](./compliance-as-code) | Terraform + GPT drift detection and policy enforcement |
+| 🧠 | [ML Infra Simulation](./ml-infra) | AI-ready SageMaker pipeline with tagging and encryption |
+| 📊 | [Kubernetes Observability Stack](./k8s-observability) | EKS + Prometheus + Grafana dashboards for DB latency and alerts |
+| 🏗 | [Platform Maturity Model](./platform-strategy) | Golden paths, OKRs, and developer velocity strategy deck |
 
 ---
 
 ## 📂 Folder Structure
+```plaintext
 /ai-observability/
-	•	cloudwatch-alarm-sim.md
-	•	gpt-response.md
-	•	flowchart.png
+  ├── cloudwatch-alarm-sim.md
+  ├── gpt-response.md
+  └── flowchart.png
 
 /finops-automation/
-	•	boto3-script.py
-	•	gpt-summary.md
-	•	cost-dashboard.pptx
+  ├── boto3-script.py
+  ├── gpt-summary.md
+  └── cost-dashboard.pptx
 
 /compliance-as-code/
-	•	terraform-drift.tf
-	•	gpt-policy.md
-	•	remediation-diagram.png
+  ├── terraform-drift.tf
+  ├── gpt-policy.md
+  └── remediation-diagram.png
 
 /ml-infra/
-	•	sagemaker-deploy.md
-	•	security-architecture.png
+  ├── sagemaker-deploy.md
+  └── security-architecture.png
 
 /k8s-observability/
-	•	helm-values.yaml
-	•	grafana-dashboard.json
+  ├── helm-values.yaml
+  └── grafana-dashboard.json
 
 /platform-strategy/
-	•	maturity-model.pdf
-	•	platform-okrs.md
+  ├── maturity-model.pdf
+  └── platform-okrs.md
 
- ---
-
-## 📌 How to Use This Portfolio
-
-- **Hiring Managers / Recruiters:** Review project summaries and check GitHub activity and visuals.
-- **Clients / Consulting Prospects:** Each project can be tailored to your environment. Book a free discovery call [here](#).
-- **Engineers / Architects:** Fork and reuse these automation and observability patterns in your own infra workflows.
-
----
-
-## 🧠 Tech Stack
-
-- **Cloud:** AWS (RDS, EC2, S3, SageMaker, Cost Explorer)
-- **IaC:** Terraform, Jenkins, GitHub Actions
-- **AI/Automation:** ChatGPT, GPT-4, LangChain
-- **FinOps:** CloudZero, AWS Cost Explorer, tagging optimization
-- **Observability:** Prometheus, Grafana, ELK Stack
-- **Languages:** Python, YAML, HCL
-
-- 
