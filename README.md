@@ -60,4 +60,3 @@ This portfolio showcases **real-world micro-projects**, **architecture diagrams*
 /platform-strategy/
   ├── maturity-model.pdf
   └── platform-okrs.md
-
